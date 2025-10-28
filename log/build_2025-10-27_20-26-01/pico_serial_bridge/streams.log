@@ -1,0 +1,46 @@
+[0.438s] Invoking command in '/home/mallu/MBOT/src/pico_serial_bridge': PYTHONPATH=/home/mallu/MBOT/build/pico_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_serial_bridge build --build-base /home/mallu/MBOT/build/pico_serial_bridge/build install --record /home/mallu/MBOT/build/pico_serial_bridge/install.log --single-version-externally-managed install_data
+[0.594s] running egg_info
+[0.595s] creating ../../build/pico_serial_bridge/pico_serial_bridge.egg-info
+[0.595s] writing ../../build/pico_serial_bridge/pico_serial_bridge.egg-info/PKG-INFO
+[0.595s] writing dependency_links to ../../build/pico_serial_bridge/pico_serial_bridge.egg-info/dependency_links.txt
+[0.595s] writing entry points to ../../build/pico_serial_bridge/pico_serial_bridge.egg-info/entry_points.txt
+[0.595s] writing requirements to ../../build/pico_serial_bridge/pico_serial_bridge.egg-info/requires.txt
+[0.595s] writing top-level names to ../../build/pico_serial_bridge/pico_serial_bridge.egg-info/top_level.txt
+[0.595s] writing manifest file '../../build/pico_serial_bridge/pico_serial_bridge.egg-info/SOURCES.txt'
+[0.596s] reading manifest file '../../build/pico_serial_bridge/pico_serial_bridge.egg-info/SOURCES.txt'
+[0.596s] writing manifest file '../../build/pico_serial_bridge/pico_serial_bridge.egg-info/SOURCES.txt'
+[0.596s] running build
+[0.596s] running build_py
+[0.597s] creating /home/mallu/MBOT/build/pico_serial_bridge/build
+[0.597s] creating /home/mallu/MBOT/build/pico_serial_bridge/build/lib
+[0.597s] creating /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] copying pico_serial_bridge/bridge_node.py -> /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] copying pico_serial_bridge/encoder_parser.py -> /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] copying pico_serial_bridge/serial_handler.py -> /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] copying pico_serial_bridge/cmd_vel_serial_bridge.py -> /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] copying pico_serial_bridge/__init__.py -> /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge
+[0.597s] running install
+[0.597s] running install_lib
+[0.598s] creating /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] copying /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge/bridge_node.py -> /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] copying /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge/encoder_parser.py -> /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] copying /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge/serial_handler.py -> /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] copying /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge/cmd_vel_serial_bridge.py -> /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] copying /home/mallu/MBOT/build/pico_serial_bridge/build/lib/pico_serial_bridge/__init__.py -> /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge
+[0.598s] byte-compiling /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge/bridge_node.py to bridge_node.cpython-310.pyc
+[0.599s] byte-compiling /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge/encoder_parser.py to encoder_parser.cpython-310.pyc
+[0.599s] byte-compiling /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge/serial_handler.py to serial_handler.cpython-310.pyc
+[0.599s] byte-compiling /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge/cmd_vel_serial_bridge.py to cmd_vel_serial_bridge.cpython-310.pyc
+[0.600s] byte-compiling /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge/__init__.py to __init__.cpython-310.pyc
+[0.600s] running install_data
+[0.600s] creating /home/mallu/MBOT/install/pico_serial_bridge/share/ament_index
+[0.600s] creating /home/mallu/MBOT/install/pico_serial_bridge/share/ament_index/resource_index
+[0.600s] creating /home/mallu/MBOT/install/pico_serial_bridge/share/ament_index/resource_index/packages
+[0.600s] copying resource/pico_serial_bridge -> /home/mallu/MBOT/install/pico_serial_bridge/share/ament_index/resource_index/packages
+[0.600s] copying package.xml -> /home/mallu/MBOT/install/pico_serial_bridge/share/pico_serial_bridge
+[0.600s] running install_egg_info
+[0.601s] Copying ../../build/pico_serial_bridge/pico_serial_bridge.egg-info to /home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages/pico_serial_bridge-0.0.1-py3.10.egg-info
+[0.601s] running install_scripts
+[0.614s] Installing cmd_vel_serial_bridge script to /home/mallu/MBOT/install/pico_serial_bridge/lib/pico_serial_bridge
+[0.615s] writing list of installed files to '/home/mallu/MBOT/build/pico_serial_bridge/install.log'
+[0.628s] Invoked command in '/home/mallu/MBOT/src/pico_serial_bridge' returned '0': PYTHONPATH=/home/mallu/MBOT/build/pico_serial_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mallu/MBOT/install/pico_serial_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_serial_bridge build --build-base /home/mallu/MBOT/build/pico_serial_bridge/build install --record /home/mallu/MBOT/build/pico_serial_bridge/install.log --single-version-externally-managed install_data
